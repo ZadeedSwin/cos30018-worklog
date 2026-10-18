@@ -1,0 +1,6 @@
+venv/
+.ipynb_checkpoints/
+*.pdf
+*.pptx
+*.docx
+.DS_Store
