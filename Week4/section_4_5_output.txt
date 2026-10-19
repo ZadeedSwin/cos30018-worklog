@@ -1,0 +1,7 @@
+list_products | {}
+get_revenue | {'product_id': {'title': 'Product Id', 'type': 'string', 'description': 'see tool description'}, 'year': {'title': 'Year', 'type': 'integer', 'description': 'see tool description'}}
+get_returns | {'product_id': {'title': 'Product Id', 'type': 'string', 'description': 'see tool description'}, 'year': {'title': 'Year', 'type': 'integer', 'description': 'see tool description'}}
+save_report | {'filename': {'title': 'Filename', 'type': 'string', 'description': 'see tool description'}, 'content': {'title': 'Content', 'type': 'string', 'description': 'see tool description'}}
+{'result': [{'product_id': 'P-100', 'name': 'Alpine 2P Tent', 'category': 'shelter'}, {'product_id': 'P-200', 'name': 'Riverbend Kayak', 'category': 'watercraft'}, {'product_id': 'P-300', 'name': 'Trailhead Backpack 45L', 'category': 'packs'}]}
+{'product_id': 'P-200', 'name': 'Riverbend Kayak', 'year': 2025, 'revenue': [95, 88, 70, 52, 33, 21, 18, 24, 41, 63, 82, 101]}
+{'error': 'P-200 is not sold online, so returns are not tracked.'}

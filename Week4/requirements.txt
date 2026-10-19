@@ -1,0 +1,6 @@
+smolagents[mcp,toolkit]>=1.26
+mcp>=1.27,<2
+python-dotenv
+gradio
+websockets
+openai
